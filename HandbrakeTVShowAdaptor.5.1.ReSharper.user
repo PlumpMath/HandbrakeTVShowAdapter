@@ -1,0 +1,401 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Normal.xml" caret="445" fromTop="12" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:High.xml" caret="882" fromTop="26" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:DvdInfo.cs" caret="317" fromTop="14" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:TitleAndDvd.cs" caret="676" fromTop="30" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:QueueItem.cs" caret="2221" fromTop="42" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Program.cs" caret="794" fromTop="26" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="15957" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:DvdInfo.cs" caret="397" fromTop="17" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="11308" fromTop="41" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:TitleAndDvd.cs" caret="654" fromTop="27" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17605" fromTop="17" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="1590" fromTop="32" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="16951" fromTop="34" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17050" fromTop="29" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17130" fromTop="33" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="15134" fromTop="31" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="15596" fromTop="39" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:QueueItem.cs" caret="2218" fromTop="63" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="5317" fromTop="19" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="9706" fromTop="11" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="1973" fromTop="29" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="9706" fromTop="52" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="9609" fromTop="55" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="9718" fromTop="53" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="5605" fromTop="25" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="759" fromTop="6" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="959" fromTop="9" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="11014" fromTop="28" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17601" fromTop="47" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17917" fromTop="28" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="13605" fromTop="39" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="13060" fromTop="33" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="12648" fromTop="24" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="16611" fromTop="40" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="13603" fromTop="21" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="17450" fromTop="10" />
+      <File id="515B4146-03BC-47C1-B751-BCF303616749/f:Form1.cs" caret="18758" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="HandBrake" priority="1" />
+      <Item value="Interop" priority="0" />
+      <Item value="HandBrakeInstance`0" priority="2" />
+      <Item value="handBrakeInstance" priority="7" />
+      <Item value="VIDEOTSFolder" priority="0" />
+      <Item value="CreateDelegate" priority="4" />
+      <Item value="eventArgs" priority="1" />
+      <Item value="sender" priority="3" />
+      <Item value="titlesListBox" priority="8" />
+      <Item value="new" priority="18" />
+      <Item value="bindingList" priority="0" />
+      <Item value="foreach" priority="10" />
+      <Item value="title" priority="3" />
+      <Item value="if" priority="18" />
+      <Item value="else" priority="6" />
+      <Item value="scanProgressEventArgs" priority="3" />
+      <Item value="titleProgressBar" priority="4" />
+      <Item value="Program`0" priority="0" />
+      <Item value="UpdateTitleProgress`0" priority="0" />
+      <Item value="TvdbLib" priority="1" />
+      <Item value="TvdbHandler`0" priority="0" />
+      <Item value="TvdbData`0" priority="1" />
+      <Item value="TvdbDownloader`0" priority="0" />
+      <Item value="tvdbDownloader" priority="3" />
+      <Item value="tvdbData" priority="0" />
+      <Item value="textBox2" priority="2" />
+      <Item value="downloadSearchResults" priority="3" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="DefaultLanguage" priority="0" />
+      <Item value="true" priority="4" />
+      <Item value="false" priority="1" />
+      <Item value="downloadSeries" priority="9" />
+      <Item value="listView1" priority="0" />
+      <Item value="availableEpisodesListBox" priority="10" />
+      <Item value="datasource" priority="1" />
+      <Item value="tvdbEpisode" priority="4" />
+      <Item value="string" priority="4" />
+      <Item value="seasonAndEpisode" priority="0" />
+      <Item value="episodeNumber" priority="2" />
+      <Item value="return" priority="6" />
+      <Item value="outputTextBox" priority="0" />
+      <Item value="EncodeJob" priority="1" />
+      <Item value="private" priority="1" />
+      <Item value="readonly" priority="0" />
+      <Item value="BindingList" priority="0" />
+      <Item value="BindingList&lt;QueueItem&gt;" priority="0" />
+      <Item value="queue" priority="11" />
+      <Item value="queueGrid" priority="2" />
+      <Item value="QueueItem" priority="0" />
+      <Item value="item" priority="4" />
+      <Item value="INotifyPropertyChanged`0" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="i" priority="3" />
+      <Item value="episodeName" priority="1" />
+      <Item value="public" priority="4" />
+      <Item value="ProcessingStatus" priority="1" />
+      <Item value="enum" priority="0" />
+      <Item value="WAITING" priority="2" />
+      <Item value="processingStatus" priority="1" />
+      <Item value="value" priority="1" />
+      <Item value="InvokePropertyChanged`0" priority="0" />
+      <Item value="Title`0" priority="2" />
+      <Item value="CreateLambda" priority="2" />
+      <Item value="listChangedEventArgs" priority="1" />
+      <Item value="ItemAdded" priority="0" />
+      <Item value="q" priority="4" />
+      <Item value="ENCODING" priority="3" />
+      <Item value="queueItem" priority="12" />
+      <Item value="SourceType" priority="0" />
+      <Item value="VideoFolder" priority="0" />
+      <Item value="Title" priority="1" />
+      <Item value="SourcePath" priority="0" />
+      <Item value="videotsFolder" priority="0" />
+      <Item value="OutputPath" priority="0" />
+      <Item value="Subtitles" priority="1" />
+      <Item value="encodeProgressEventArgs" priority="3" />
+      <Item value="percentComplete" priority="0" />
+      <Item value="EncodingProfile" priority="1" />
+      <Item value="profile" priority="2" />
+      <Item value="Math`0" priority="0" />
+      <Item value="encodingItem" priority="1" />
+      <Item value="DONE" priority="2" />
+      <Item value="StartEncode`0" priority="3" />
+      <Item value="queueItems" priority="0" />
+      <Item value="QueueOnListChanged`0" priority="0" />
+      <Item value="d" priority="1" />
+      <Item value="encodingInstance" priority="6" />
+      <Item value="SourceSubtitle" priority="0" />
+      <Item value="BurnedIn" priority="0" />
+      <Item value="Default" priority="0" />
+      <Item value="Forced" priority="0" />
+      <Item value="TrackNumber" priority="0" />
+      <Item value="profileNameCombo" priority="3" />
+      <Item value="List" priority="1" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="HashSet" priority="0" />
+      <Item value="e" priority="1" />
+      <Item value="seriesNumberComboBox" priority="3" />
+      <Item value="series" priority="1" />
+      <Item value="null" priority="1" />
+      <Item value="discNumberComboBox" priority="2" />
+      <Item value="seriesNumber" priority="0" />
+      <Item value="ep" priority="1" />
+      <Item value="dicsIds" priority="1" />
+      <Item value="filteredEpisodes" priority="0" />
+      <Item value="availableTitles" priority="8" />
+      <Item value="availableTitle" priority="2" />
+      <Item value="List&lt;Title&gt;" priority="0" />
+      <Item value="titlesToRemove" priority="0" />
+      <Item value="RemoveTitlesWithIncorrectLengths`0" priority="0" />
+      <Item value="Profile" priority="0" />
+      <Item value="CRF" priority="0" />
+      <Item value="crfComboBox" priority="0" />
+      <Item value="ToolStripGripDisplayStyle`0" priority="0" />
+      <Item value="dvdsListBox" priority="2" />
+      <Item value="bool" priority="0" />
+      <Item value="DvdInfo`0" priority="2" />
+      <Item value="scanningQueue" priority="7" />
+      <Item value="selectedDvd" priority="0" />
+      <Item value="scanningInstance" priority="4" />
+      <Item value="scanningDvdName" priority="1" />
+      <Item value="statusString" priority="0" />
+      <Item value="scannedDvd" priority="2" />
+      <Item value="TitleAndDvd`0" priority="3" />
+      <Item value="DirectoryInfo`0" priority="0" />
+      <Item value="directoryInfo" priority="0" />
+      <Item value="subDirectory" priority="3" />
+      <Item value="availableDvds" priority="0" />
+      <Item value="DvdInfo" priority="0" />
+      <Item value="FindDvdsFrom`0" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="BindingList&lt;string&gt;" priority="0" />
+      <Item value="availableEpisodes" priority="3" />
+      <Item value="for" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="NullReferenceException`0" priority="0" />
+      <Item value="Console`0" priority="1" />
+      <Item value="lastScannedPath" priority="0" />
+      <Item value="HandBrakeInstanceOnEncodeCompleted`0" priority="0" />
+      <Item value="HandBrakeInstanceOnEncodeProgress`0" priority="0" />
+      <Item value="allTitles" priority="0" />
+      <Item value="runtimeTextBox" priority="1" />
+      <Item value="runtime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandBrake.Interop.HandBrakeInstance">
+      <Item value="StartScan`0" priority="4" />
+      <Item value="ScanCompleted" priority="2" />
+      <Item value="Titles" priority="2" />
+      <Item value="ScanProgress" priority="0" />
+      <Item value="StartEncode`0" priority="1" />
+      <Item value="StopEncode`0" priority="0" />
+      <Item value="EncodeProgress" priority="1" />
+      <Item value="EncodeCompleted" priority="1" />
+      <Item value="StopScan`0" priority="0" />
+      <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox">
+      <Item value="DataSource" priority="3" />
+      <Item value="Refresh`0" priority="1" />
+      <Item value="InvokeRequired" priority="0" />
+      <Item value="BeginInvoke`0" priority="0" />
+      <Item value="GetSelected`0" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="CheckedItems" priority="4" />
+      <Item value="SelectedItems" priority="0" />
+      <Item value="SetItemChecked`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.BindingList`1">
+      <Item value="Add`0" priority="8" />
+      <Item value="Clear`0" priority="4" />
+      <Item value="ListChanged" priority="0" />
+      <Item value="Single`1" priority="0" />
+      <Item value="Any`1" priority="3" />
+      <Item value="Where`1" priority="1" />
+      <Item value="Remove`0" priority="2" />
+      <Item value="First`1" priority="3" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandBrake.Interop.SourceData.Title">
+      <Item value="Display" priority="0" />
+      <Item value="TitleNumber" priority="2" />
+      <Item value="Subtitles" priority="0" />
+      <Item value="Duration" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandBrake.Interop.EventArgs.ScanProgressEventArgs">
+      <Item value="CurrentTitle" priority="0" />
+      <Item value="Progress" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ProgressBar">
+      <Item value="Value" priority="1" />
+      <Item value="InvokeRequired" priority="0" />
+      <Item value="BeginInvoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@HandbrakeTVShowAdaptor.Program">
+      <Item value="InvokeDelegate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TvdbLib.TvdbDownloader">
+      <Item value="DownloadSeries`0" priority="1" />
+      <Item value="DownloadSearchResults`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="0" />
+      <Item value="Single`1" priority="2" />
+      <Item value="Where`1" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TvdbLib.Data.TvdbSearchResult">
+      <Item value="Id" priority="0" />
+      <Item value="SeriesName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TvdbLib.Data.TvdbSeries">
+      <Item value="Episodes" priority="3" />
+      <Item value="SeriesName" priority="0" />
+      <Item value="Rating" priority="1" />
+      <Item value="Runtime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TvdbLib.Data.TvdbEpisode">
+      <Item value="SeasonNumber" priority="4" />
+      <Item value="EpisodeName" priority="0" />
+      <Item value="EpisodeNumber" priority="0" />
+      <Item value="DvdSeason" priority="1" />
+      <Item value="DvdDiscId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="0" />
+      <Item value="InvokeRequired" priority="0" />
+      <Item value="Invoke`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox+CheckedItemCollection">
+      <Item value="Count" priority="1" />
+      <Item value="Cast`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Skip`1" priority="0" />
+      <Item value="Take`1" priority="1" />
+      <Item value="Select`2" priority="2" />
+      <Item value="Single`1" priority="1" />
+      <Item value="ToList`1" priority="4" />
+      <Item value="First`1" priority="0" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="Any`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.ListChangedEventArgs">
+      <Item value="ListChangedType" priority="0" />
+      <Item value="NewIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandbrakeTVShowAdaptor.QueueItem">
+      <Item value="ProcessingStatus" priority="9" />
+      <Item value="Title" priority="1" />
+      <Item value="EpisodeName" priority="0" />
+      <Item value="Progress" priority="1" />
+      <Item value="CRF" priority="0" />
+      <Item value="Profile" priority="0" />
+      <Item value="Dvd" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandBrake.Interop.EventArgs.EncodeProgressEventArgs">
+      <Item value="FractionComplete" priority="0" />
+      <Item value="Pass" priority="0" />
+      <Item value="AverageFrameRate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="0" />
+      <Item value="Abs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Text" priority="4" />
+      <Item value="Items" priority="0" />
+      <Item value="DataSource" priority="4" />
+      <Item value="Refresh`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMinutes" priority="0" />
+      <Item value="Hours" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandBrake.Interop.Model.Encoding.EncodingProfile">
+      <Item value="Quality" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox+SelectedObjectCollection">
+      <Item value="Cast`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandbrakeTVShowAdaptor.DvdInfo">
+      <Item value="Path" priority="5" />
+      <Item value="Title" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HandbrakeTVShowAdaptor.TitleAndDvd">
+      <Item value="Title" priority="1" />
+      <Item value="ScannedDvd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="EnumerateDirectories`0" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="FullName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckedListBox+ObjectCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Out" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
