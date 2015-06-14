@@ -34,9 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HandBrakeInterop, Version=1.23.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="HandBrakeInterop, Version=1.40.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\HandBrake\HandBrakeInterop.dll</HintPath>
+      <HintPath>..\Ext\HandBrakeInterop.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -88,10 +88,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="High.xml">
+    <Content Include="hb.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="hb.dll">
+    <Content Include="High.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Normal.xml">

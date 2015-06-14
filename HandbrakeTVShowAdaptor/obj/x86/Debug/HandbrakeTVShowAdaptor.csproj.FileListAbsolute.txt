@@ -11,3 +11,17 @@ C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\Han
 C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdaptor\bin\Debug\High.xml
 C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.csprojResolveAssemblyReference.cache
 C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.csproj.GenerateResource.Cache
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.exe
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.pdb
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\hb.dll
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\High.xml
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\Normal.xml
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\HandbrakeTVShowAdaptor.exe
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\HandbrakeTVShowAdaptor.pdb
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\HandBrakeInterop.dll
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\TvdbLib.dll
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\bin\Debug\HandBrakeInterop.pdb
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.csprojResolveAssemblyReference.cache
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.Form1.resources
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.Properties.Resources.resources
+C:\Users\Graham\Documents\Visual Studio 2010\Projects\HandbrakeTVShowAdaptor\HandbrakeTVShowAdapter\HandbrakeTVShowAdaptor\obj\x86\Debug\HandbrakeTVShowAdaptor.csproj.GenerateResource.Cache
