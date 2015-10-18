@@ -377,6 +377,10 @@ namespace HandbrakeTVShowAdaptor
             foreach (TitleAndDvd item in titlesListBox.CheckedItems)
             {
                 string episodeName = availableEpisodesListBox.CheckedItems.Cast<string>().Skip(i).Take(1).Single();
+                foreach (var fileNameChar in Path.GetInvalidFileNameChars())
+                {
+                    episodeName = episodeName.Replace(fileNameChar, '_');
+                }
                 queue.Add(new QueueItem()
                               {
                                   SeriesName = textBox2.Text,
