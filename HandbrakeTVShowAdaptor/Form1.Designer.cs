@@ -65,13 +65,17 @@
             this.startScanButton = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.filesToBeShrunkListBox = new System.Windows.Forms.CheckedListBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button3 = new System.Windows.Forms.Button();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -82,6 +86,7 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // titlesListBox
@@ -422,6 +427,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(17, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -445,6 +451,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "TV Shows";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(8, 303);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(321, 41);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Scan with Chapter Breakdown";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage2
             // 
@@ -501,15 +517,46 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // button3
+            // tabPage3
             // 
-            this.button3.Location = new System.Drawing.Point(8, 303);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(321, 41);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Scan with Chapter Breakdown";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.button5);
+            this.tabPage3.Controls.Add(this.checkedListBox1);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1592, 391);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "iPlayer Rename";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(332, 239);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(335, 119);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Rename Files";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(6, 10);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(302, 38);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "Select Folder";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(6, 54);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(302, 304);
+            this.checkedListBox1.TabIndex = 16;
             // 
             // Form1
             // 
@@ -533,6 +580,7 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -583,6 +631,10 @@
         private System.Windows.Forms.CheckedListBox filesToBeShrunkListBox;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 

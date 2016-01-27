@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using HandBrake.Interop;
@@ -514,6 +515,70 @@ namespace HandbrakeTVShowAdaptor
         {
             breakIntoChapters = true;
             StartScan();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Multiselect = true;
+            DialogResult dialogResult = openFileDialog1.ShowDialog(this);
+            if (dialogResult == DialogResult.OK)
+            {
+                checkedListBox1.Items.Clear();
+                foreach (var fileName in openFileDialog1.FileNames)
+                {
+                    checkedListBox1.Items.Add(fileName);
+
+                }
+                SetAllItemsChecked(checkedListBox1);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            foreach (var item in checkedListBox1.CheckedItems)
+            {
+                var fileName = (string)item;
+                new FileInfo(fileName).MoveTo(RenameIplayerFileName(fileName));
+            }
+        }
+
+        private string RenameIplayerFileName(string fileName)
+        {
+            var episodeWithSeries = new Regex("(.+)_Series_([0-9]+)_-_([0-9]+)\\._(.+)_.+_default");
+            var episodeWithoutSeries = new Regex("(.+)_-_([0-9]+)\\._(.+)_.+_default");
+            if (episodeWithSeries.IsMatch(fileName))
+            {
+                var match = episodeWithSeries.Match(fileName);
+                var seriesName = match.Groups[1].Value.Replace("_", " ");
+                var seriesNumber = match.Groups[2].Value;
+                if (seriesNumber.Length < 2)
+                {
+                    seriesNumber = "0" + seriesNumber;
+                }
+                var episodeNumber = match.Groups[3].Value;
+                if (episodeNumber.Length < 2)
+                {
+                    episodeNumber = "0" + episodeNumber;
+                }
+                var episodeName = match.Groups[4].Value.Replace("_", " ");
+                return seriesName + " - " + "S" + seriesNumber + "E" + episodeNumber + " - " + episodeName + ".mp4";
+
+            }
+            if (episodeWithoutSeries.IsMatch(fileName))
+            {
+                var match = episodeWithoutSeries.Match(fileName);
+                var seriesName = match.Groups[1].Value.Replace("_", " ");
+                var episodeNumber = match.Groups[2].Value;
+                if (episodeNumber.Length < 2)
+                {
+                    episodeNumber = "0" + episodeNumber;
+                }
+                var episodeName = match.Groups[3].Value.Replace("_", " ");
+                return seriesName + " - E" + episodeNumber + " - " + episodeName + ".mp4";
+
+            }
+            return fileName;
+
         }
     }
 }
